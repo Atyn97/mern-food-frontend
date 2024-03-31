@@ -18,8 +18,8 @@ export type SearchForm = z.infer<typeof formSchema>;
 type Props = {
   onSubmit: (formData: SearchForm) => void;
   placeHolder: string;
-  onReset: () => void;
-  searchQuery: string;
+  onReset?: () => void;
+  searchQuery?: string;
 };
 
 const SearchBar = ({ onSubmit, placeHolder, onReset, searchQuery }: Props) => {
