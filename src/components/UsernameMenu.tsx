@@ -25,7 +25,7 @@ const UsernameMenu = () => {
             to="/manage-restaurant"
             className="font-bold hover:text-green-500"
           >
-            Manage Restaurant
+            My Restaurant
           </Link>
         </DropdownMenuItem>
         <DropdownMenuItem className="flex flex-col gap-2">
