@@ -15,12 +15,12 @@ const HomePage = () => {
   };
   return (
     <div className="flex flex-col gap-12">
-      <div className="md:px-32 bg-white rounded-lg shadow-md py-8 flex flex-col gap-5 text-center -mt-40">
-        <h1 className="text-5xl font-bold tracking-tight text-green-600">
+      <div className="md:px-32 px-8 bg-white rounded-lg shadow-md py-8 flex flex-col md:gap-5 gap-2 text-center -mt-40">
+        <h1 className="md:text-5xl text-3xl font-bold tracking-tight text-green-600">
           Order delivery near you
         </h1>
 
-        <span className="text-xl">
+        <span className="md:text-xl text-sm">
           Where should we deliver your food today?
         </span>
         <SearchBar
