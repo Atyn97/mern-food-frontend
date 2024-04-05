@@ -3,7 +3,7 @@ const Footer = () => {
     <div className="bg-green-500 py-10">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <span className="text-3xl text-white font-bold tracking-tight cursor-pointer">
-          MernFood
+          SpeedyEats
         </span>
         <span className="text-white font-bold tracking-tight flex gap-4">
           <span className="hover:text-green-200 cursor-pointer">
@@ -13,7 +13,7 @@ const Footer = () => {
             Term of Service
           </span>
         </span>
-        <span>© MernFood 2024</span>
+        <span>© SpeedyEats 2024</span>
       </div>
     </div>
   );

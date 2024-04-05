@@ -62,7 +62,7 @@ const HomePage = () => {
           Order takeaway even faster!
         </h1>
         <span className="flex text-center">
-          Download the MernFood App for faster ordering and personalised
+          Download the SpeedyEats App for faster ordering and personalised
           recommendations
         </span>
         <img src={appDownload} />
