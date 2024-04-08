@@ -57,6 +57,25 @@ const HomePage = () => {
           </span>
         </div>
       </div>
+      <div className="flex flex-col gap-8">
+        <h1 className="font-bold text-3xl">Why SpeedyFood?</h1>
+
+        <ul className="space-y-2">
+          <li>
+            ✓ <b>Quickest</b> - SpeedyEats provides the fastest food delivery in
+            the market.
+          </li>
+          <li>
+            ✓ <b>Easiest</b> - Now get your food is just a few clicks or taps
+            away. Order online or download our Grab super app for a faster and
+            more rewarding experience.
+          </li>
+          <li>
+            ✓ <b>Pay fast</b> - It’s easy to get your meals delivered to you.
+            It’s even easier to pay for it with SpeedyPay.
+          </li>
+        </ul>
+      </div>
       <div className="flex flex-col items-center gap-3">
         <h1 className="font-bold text-3xl text-center">
           Order takeaway even faster!
