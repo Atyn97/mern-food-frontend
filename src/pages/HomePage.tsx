@@ -1,7 +1,7 @@
 import appDownload from "../assets/appDownload.png";
 import SearchBar, { SearchForm } from "@/components/SearchBar";
 import { useNavigate } from "react-router-dom";
-import HomeCategory from "@/components/HomeCategory";
+import HomeCategory from "@/components/CuisineCard";
 import { useState } from "react";
 
 const HomePage = () => {

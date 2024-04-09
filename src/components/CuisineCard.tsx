@@ -7,7 +7,7 @@ type Props = {
   onExpandedClick: () => void;
 };
 
-const HomeCategory = ({ isExpanded, onExpandedClick }: Props) => {
+const CuisineCard = ({ isExpanded, onExpandedClick }: Props) => {
   return (
     <div className="flex flex-col gap-8 items-center justify-center">
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 items-center ">
@@ -39,4 +39,4 @@ const HomeCategory = ({ isExpanded, onExpandedClick }: Props) => {
   );
 };
 
-export default HomeCategory;
+export default CuisineCard;

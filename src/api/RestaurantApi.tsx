@@ -58,33 +58,3 @@ export const useSearchRestaurants = (
 
   return { results, isLoading };
 };
-
-export const useSearchCuisines = (
-  searchState: SearchState,
-  cuisine?: string
-) => {
-  const createSearchCuisineRequest =
-    async (): Promise<RestaurantSearchResponse> => {
-      const params = new URLSearchParams();
-      params.set("searchQuery", searchState.searchQuery);
-      params.set("page", searchState.page.toString());
-
-      const response = await fetch(
-        `${API_BASE_URL}/api/restaurant/search/${cuisine}`
-      );
-
-      if (!response.ok) {
-        throw new Error("Failed to fetch cuisine");
-      }
-
-      return response.json();
-    };
-
-  const { data: results, isLoading } = useQuery(
-    ["searchCuisine", searchState],
-    createSearchCuisineRequest,
-    { enabled: !!cuisine }
-  );
-
-  return { results, isLoading };
-};
